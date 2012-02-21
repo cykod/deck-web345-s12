@@ -401,26 +401,6 @@ p {
 </textarea>
 </article> 
 
-
-<article class='slide slide-image'>
-<h1>In Class Exercise 1: we want this</h1>
-<img src='images/position-exercise.png'/>
-</article>
-
-
-<article class='slide slide-list'>
-<h2>Cascading - What Color?</h2>
-<textarea class='coder-editor coder-editor-full' data-coder-template="coderdeck-plain" id='coderdeck-default'>
-<style>
-  p { color:red;}
-  .blue { color:blue; }
-  #menu p { color:black; }
-</style>
-
-<div id="menu"><p class='blue'>This is the paragraph</p></div>
-</textarea>
-</article>
-
 <article class="slide slide-list">
 <h1>Cascading Hierarchy</h1>
 <ol>
@@ -445,11 +425,26 @@ p {
 </ol>
 </article>
 
+
+<article class='slide slide-list'>
+<h2>Cascading - What Color?</h2>
+<textarea class='coder-editor coder-editor-full' data-coder-template="coderdeck-plain" id='coderdeck-default'>
+<style>
+  p { color:red;}
+  .blue { color:blue; }
+  #menu p { color:black; }
+</style>
+
+<div id="menu"><p class='blue'>This is the paragraph</p></div>
+</textarea>
+</article>
+
+
 <article class="slide slide-list">
 	<h1>Organizing Your CSS</h1>
 	<ol>
 		<li class='slide'>
-			<h3>Start with your reset (see next slide)</h3>
+			<h3>Start with your reset</h3>
 		</li>	
 		<li class="slide">
 			<h3>Set your body</h3>
@@ -469,23 +464,7 @@ p {
 	</ol>	
 </article>	
 
-<article class='slide slide-list'>
-<h2>Logo Replacement</h2>
-<textarea class='coder-editor coder-editor-split' data-coder-template="coderdeck-plain" id='coderdeck-default'>
-&lt;style&gt;
-#site-header h1 a {
- display:block;  
- width:300px; 
- height:80px;  
- background:url(images/logo.png) no-repeat top left; 
- text-indent:-9999px;
- }
-</style>
-<header id='site-header'>
- <h1><a href='#'>My Awesome Website</a></h1>
-</header>
-</textarea>
-</article>
+
 
 <article class='slide slide-image'>
 <h1>Exercise: navbar</h1>
@@ -558,56 +537,36 @@ p {
 </script>
 </article>
 
-<article class='slide slide-accent'>
-	<h1>Techniques</h1>
-</article>	
-
-<article class="slide slide-subhead">
-	<h1>Start with<br/> your reset</h1>
-	<p>Eric Meyer Reset<br/>
-		<a href="http://meyerweb.com/eric/tools/css/reset/">http://meyerweb.com/eric/tools/css/reset/</a>
-	</p>
-	<h2><a href="http://bit.ly/meyerreset">http://bit.ly/meyerreset</a>
-	</h2>	
-</article>
-
 <article class='slide slide-list'>
-	<h1>Centering Content</h1>
-	<h2>Give it a width and set margin: 0 auto;</h2>
-<pre>
-section#content {
-  margin:0 auto;
-  width:960px;
-}
-	</pre>
-</article>	
-
-<article class="slide slide-list">
-<h1>Nitty Gritty</h1>
-	<ul>
-		<li class="slide">
-			<h3>Using HTML5 tags - use a shiv<br/> <a href="http://code.google.com/p/html5shiv/">http://code.google.com/p/html5shiv/</a><br/>
-				(Or Modernizr, which we’ll discuss later)</h3>
-		</li>
-		<li class="slide">
-			<h3>Link to your stylesheet with a link tag in your &lt;head&gt;:<br/> 
-				<pre>&lt;link type=‘text/css’ rel=‘stylesheet’ href=‘style.css’ /&gt;</pre>
-			</h3>
-		</li>
-	</ul>
+<h2>Logo Replacement</h2>
+<textarea class='coder-editor coder-editor-split' data-coder-template="coderdeck-plain" id='coderdeck-default'>
+&lt;style&gt;
+#site-header h1 a {
+ display:block;  
+ width:300px; 
+ height:80px;  
+ background:url(images/logo.png) no-repeat top left; 
+ text-indent:-9999px;
+ }
+</style>
+<header id='site-header'>
+ <h1><a href='#'>My Awesome Website</a></h1>
+</header>
+</textarea>
 </article>
+
 
 
 <article class='slide slide-list'>
 	<h1>Homework</h1>
-	<p>Default paragraphs to two paragraphs, with floated images<br/>
-		<h3><br/><img src="images/css-default.png" class='top-image'/><br/><br/></h3>
+	<p>07-css-robots Style & Position<br/>
+		<h3><br/><img src="images/evilgenius.png" class='top-image'/><br/><br/></h3>
 </article>
 
 
 <article class='slide slide-list'>
-	<h1>End Result</h1>
-		<h3><br/><img src="images/css-style.png" class='top-image'/><br/><br/></h3>
+	<h1>06-css-cats-vs-dogs Style & Position</h1>
+		<h3><br/><img src="images/dogsvscat.png" class='top-image'/><br/><br/></h3>
 </article>
 
 
